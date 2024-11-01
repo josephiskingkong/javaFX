@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.javafx.MainController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Button text="Задание №1" onMouseClicked="#firstTaskButtonClicked"/>
+    <Button text="Задание №2" onMouseClicked="#secondTaskButtonClicked"/>
+    <Button text="Задание №3" onMouseClicked="#thirdTaskButtonClicked"/>
+    <Button text="Задание №4" onMouseClicked="#fourthTaskButtonClicked"/>
+    <Button text="Задание №5" onMouseClicked="#fifthTaskButtonClicked"/>
+</VBox>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox alignment="CENTER" spacing="50"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.javafx.WidgetVisibilityController">
+
+    <VBox alignment="CENTER_LEFT" spacing="30">
+        <CheckBox fx:id="checkbox1" selected="true"/>
+        <CheckBox fx:id="checkbox2" selected="true"/>
+        <CheckBox fx:id="checkbox3" selected="true"/>
+    </VBox>
+    <VBox alignment="CENTER_RIGHT" spacing="20">
+        <Button text="Кнопка 1" fx:id="button1"/>
+        <Button text="Кнопка 2" fx:id="button2"/>
+        <Button text="Кнопка 3" fx:id="button3"/>
+    </VBox>
+
+</HBox>

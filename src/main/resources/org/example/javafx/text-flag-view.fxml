@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.javafx.TextFlagController" alignment="CENTER" spacing="10">
+
+    <HBox spacing="10" alignment="CENTER">
+        <RadioButton text="Red" fx:id="topRed" />
+        <RadioButton text="Green" fx:id="topGreen" />
+        <RadioButton text="Blue" fx:id="topBlue" />
+    </HBox>
+
+    <HBox spacing="10" alignment="CENTER">
+        <RadioButton text="Red" fx:id="middleRed" />
+        <RadioButton text="Green" fx:id="middleGreen" />
+        <RadioButton text="Blue" fx:id="middleBlue" />
+    </HBox>
+
+    <HBox spacing="10" alignment="CENTER">
+        <RadioButton text="Red" fx:id="bottomRed" />
+        <RadioButton text="Green" fx:id="bottomGreen" />
+        <RadioButton text="Blue" fx:id="bottomBlue" />
+    </HBox>
+
+    <Button text="Draw" fx:id="drawButton" />
+    <Label fx:id="resultLabel" text="Select colors and press Draw button" />
+
+</VBox>
